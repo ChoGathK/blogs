@@ -25,10 +25,6 @@
 
 * 在需要安装依赖的项目中执行：yarn add （或者npm install）`git+ssh://GIT仓库的SSH地址`
 
-> SSH地址如 ⬇️
-
-![i](https://chogathk.github.io/post-images/1593930744820.jpg)
-
 只要你有项目的权限，或者本身仓库就是共有仓库，接下来你就可以愉快的使用啦
 
 ```js
@@ -46,8 +42,8 @@ import * as cli from '@aliyun/cli';
 
 > 懒的查的就点一下吧
 
-* [👉 github 咋整](https://cn.bing.com/search?q=%E5%A6%82%E4%BD%95+%E5%88%9B%E5%BB%BA+github+token&amp;qs=n&amp;form=QBRE&amp;sp=-1&amp;pq=%E5%A6%82%E4%BD%95+%E5%88%9B%E5%BB%BA+github+token&amp;sc=0-18&amp;sk=&amp;cvid=90C3AA7D3E0B4E978EB06302CE41B51D)
-* [👉 gitlab 咋整](https://cn.bing.com/search?q=%E5%A6%82%E4%BD%95+%E5%88%9B%E5%BB%BA+gitlab+token&amp;qs=n&amp;form=QBRE&amp;sp=-1&amp;pq=%E5%A6%82%E4%BD%95+%E5%88%9B%E5%BB%BA+gitlab+token&amp;sc=0-18&amp;sk=&amp;cvid=2B785895669F4C1FBB4F0363D52A0A96)
+* [👉  github 懒的查的就点一下吧](https://cn.bing.com/search?q=%E5%A6%82%E4%BD%95+%E5%88%9B%E5%BB%BA+github+token&amp;qs=n&amp;form=QBRE&amp;sp=-1&amp;pq=%E5%A6%82%E4%BD%95+%E5%88%9B%E5%BB%BA+github+token&amp;sc=0-18&amp;sk=&amp;cvid=90C3AA7D3E0B4E978EB06302CE41B51D)
+* [👉  gitlab 懒的查的就点一下吧](https://cn.bing.com/search?q=%E5%A6%82%E4%BD%95+%E5%88%9B%E5%BB%BA+gitlab+token&amp;qs=n&amp;form=QBRE&amp;sp=-1&amp;pq=%E5%A6%82%E4%BD%95+%E5%88%9B%E5%BB%BA+gitlab+token&amp;sc=0-18&amp;sk=&amp;cvid=2B785895669F4C1FBB4F0363D52A0A96)
 
 ### show time ⬇️
 
