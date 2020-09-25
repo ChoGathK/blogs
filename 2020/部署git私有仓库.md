@@ -56,6 +56,6 @@ import * as cli from '@aliyun/cli';
 
 * RUN echo "http://mirrors.ustc.edu.cn/alpine/v3.3/main/" > /etc/apk/repositories && apk update && apk add git
 
-### 然后就可以愉快的使用啦 ~
+### 写在最后
 
 > 如果有问题，欢迎邮件留言: [chogath@163.com](mailto:chogath@163.com)

@@ -241,7 +241,9 @@ RUN cp -r -f /usr/share/zoneinfo/Asia/Chongqing /etc/localtime
 * 部署和重启 xtransit-server 和 xtransit-manager 后 Node.js 应用需要重连（websocket），这段时间可能看不到应用监控数据
 * 尽可能保证 xtransit-server 和 xtransit-manager 的高可用，不要频繁重启
 
-## THANKS
+## 写在最后
+
+> 如果有问题，欢迎邮件留言: [chogath@163.com](mailto:chogath@163.com)
 
 * 感谢您阅读我的部署指南，如有不妥处请指出，我一定会尽快修改 ~
 
