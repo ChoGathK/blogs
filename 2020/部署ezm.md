@@ -131,7 +131,7 @@ docker rmi $(docker images | grep "none" | awk '{print $3}')
 
 > FLOW CI 的配置截图
 
-![flow](./flow.png)
+![flow](../images/flow.png)
 
 ## 四、应用接入（Docker 部署）
 
@@ -220,7 +220,7 @@ if (configs.env === 'prod') {
 
 > 部署成功预览
 
-![monitor](./monitor.png)
+![monitor](../images/monitor.png)
 
 ## 五，注意事项
 
