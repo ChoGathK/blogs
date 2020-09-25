@@ -1,4 +1,4 @@
-# Easy-Monitor 3.0 阿里云 docker + k8s 部署指南
+# Easy-Monitor 3.0 Docker + K8s 部署指南
 
 ## 一、背景
 
