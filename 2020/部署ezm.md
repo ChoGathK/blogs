@@ -30,17 +30,15 @@
 
 5. 在 K8S 集群中配置 Easy-Monitor 的三个服务后可以正常访问控制台并查看对应服务应用的性能监控指标
 
-## 三、部署
+## 部署监控服务端
 
-### 1 部署监控服务端
-
-### 1.1 本地部署测试，数据库准备工作
+### 1 本地部署测试，数据库准备工作
 
 * MySQL 和 Redis 使用的是阿里云的服务
 
 * 这里请参考作者的[部署文档](https://www.yuque.com/hyj1991/easy-monitor/deployment)并在本地验证通过后，再进行下一步嗷
 
-#### 1.2 为服务编写 Dockerfile
+### 2 为服务编写 Dockerfile
 
 ``` Dockerfile
 ### BASE - NODE.JS 14.4 这里使用的阿里云北京镜像源是我个人的公共镜像，如有特殊需要，请私有部署即可 ~
@@ -76,7 +74,46 @@ EXPOSE 9090
 CMD ["yarn", "start"]
 ```
 
-### 1.3 部署到 K8S
+### 3 部署在服务器上
+
+> 把相关命令写在 package.json 中
+
+```json
+  "docker:build": "bash template/docker.build.sh",
+  "docker:clear": "bash template/docker.clear.sh",
+```
+
+> 执行构建镜像脚本
+
+```shell
+#!/bin/bash
+
+# 捕捉执行异常
+function error_exit {
+  echo "$1" 1>&2
+  exit 1
+}
+
+docker build -t 你要构建的镜像名 -f Dockerfile . || error_exit "DOCKER BUILD FAIL"
+
+docker stop 你要构建的镜像名 1>&2 && docker rm 你要构建的镜像名 1>&2
+
+docker run --name 你要构建的镜像名 -p 3000:3000 -d 你要构建的镜像名 || error_exit "DOCKER RUN FAIL"
+```
+
+> 清理镜像和容器
+
+```shell
+#!/bin/bash
+
+docker stop $(docker ps -a | grep "Exited" | awk '{print $1 }')
+
+docker rm $(docker ps -a | grep "Exited" | awk '{print $1 }')
+
+docker rmi $(docker images | grep "none" | awk '{print $3}')
+```
+
+### 4 部署到 K8S
 
 > 配置域名请根据业务需要，使用 IP + 端口也可以，但是要正确做好 K8S 集群默认 DNS 的 local 流量分配
 
