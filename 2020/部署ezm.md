@@ -30,7 +30,7 @@
 
 5. 在 K8S 集群中配置 Easy-Monitor 的三个服务后可以正常访问控制台并查看对应服务应用的性能监控指标
 
-## 部署监控服务端
+## 三、部署监控服务端
 
 ### 1 本地部署测试，数据库准备工作
 
@@ -74,7 +74,9 @@ EXPOSE 9090
 CMD ["yarn", "start"]
 ```
 
-### 3 部署在服务器上
+### 3 部署
+
+#### 3.1 部署在服务器上
 
 > 把相关命令写在 package.json 中
 
@@ -113,7 +115,7 @@ docker rm $(docker ps -a | grep "Exited" | awk '{print $1 }')
 docker rmi $(docker images | grep "none" | awk '{print $3}')
 ```
 
-### 4 部署到 K8S
+#### 3.2 部署到 K8S
 
 > 配置域名请根据业务需要，使用 IP + 端口也可以，但是要正确做好 K8S 集群默认 DNS 的 local 流量分配
 
@@ -137,7 +139,7 @@ docker rmi $(docker images | grep "none" | awk '{print $3}')
 
 > 在我们的 Node.js 架构中，配置文件是以 npm 私有包的形式存在
 
-#### 1.1.1 编辑 xtransit 启动配置
+### 1.2 编辑 xtransit 启动配置
 
 ```ts
   // 此处省略一万个字......
@@ -154,7 +156,7 @@ docker rmi $(docker images | grep "none" | awk '{print $3}')
   // 此处省略一万个字......
 ```
 
-#### 1.1.2 编写 xtransit 启动插件
+### 1.3 编写 xtransit 启动插件
 
 ```ts
 // index.ts
@@ -195,7 +197,7 @@ process.on(
 
 ```
 
-#### 1.1.3 在 Node.js 应用中使用采集器插件
+### 1.4 在 Node.js 应用中使用采集器插件
 
 ```ts
 // 这里是应用启动目录
@@ -210,7 +212,7 @@ if (configs.env === 'prod') {
 
 ```
 
-#### 1.1.4 部署到 K8S 中
+### 1.5 部署到 K8S 中
 
 1. 推送到指定分支，触发 Flow CI 自动部署
 
