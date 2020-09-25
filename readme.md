@@ -1,5 +1,7 @@
 # Blogs
 
+> 欢迎 Issues 或 Email 留言
+
 ## 2020 年
 
 * 4月
