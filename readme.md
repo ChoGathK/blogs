@@ -2,12 +2,14 @@
 
 > 欢迎 Issues 或 Email 留言
 
+## 开源项目
+
+* Node.js 全栈开发 [JiaYangStudio](https://github.com/JiaYangStudio)
+
 ## 2020 年
 
 * 4月
-
   * [部署 git 私有仓库](https://github.com/ChoGathK/blogs/blob/master/2020/部署git私有仓库.md)
 
 * 9月
-
   * [Easy-Monitor 3.0 Docker + K8s 部署指南](https://github.com/ChoGathK/blogs/blob/master/2020/%E9%83%A8%E7%BD%B2ezm.md)
