@@ -4,7 +4,7 @@
 
 ## 开源项目
 
-* Node.js 全栈开发 [JiaYangStudio](https://github.com/JiaYangStudio)
+* [JiaYangStudio](https://github.com/JiaYangStudio)
 
 ## 2020 年
 
