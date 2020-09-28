@@ -4,7 +4,7 @@
 
 ## 开源项目
 
-* [A-Cheetah](https://github.com/JiaYangStudio)
+* [A-CheetahK](https://github.com/A-CheetahK)
 
 ## 2020 年
 
