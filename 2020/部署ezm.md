@@ -71,12 +71,13 @@ COPY --from=dependencies /tmp/node_modules ./node_modules
 
 EXPOSE 9090
 
+# 这里需要注意，启动的命令（package.json script start）需要去掉 --daemon 参数
 CMD ["yarn", "start"]
 ```
 
 ### 3 部署
 
-#### 3.1 部署在服务器上
+#### 3.1 (如果) 部署在服务器上
 
 > 把相关命令写在 package.json 中
 
