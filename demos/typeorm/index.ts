@@ -5,11 +5,11 @@ const demo = async () => {
 
   const con = await createConnection({
     type: 'postgres',
-    host: 'rm-2ze31xxs616i5dz6tto.pg.rds.aliyuncs.com',
-    port: 3432,
-    username: 'bobbyen',
-    password: 'cru1dKAaS9gOLtuo',
-    database: 'dev_global_application',
+    host: 'xxx',
+    port: 0,
+    username: 'xxx',
+    password: 'xxx',
+    database: 'xxx',
     entities: [ Demo ],
     // synchronize: true,
   });
