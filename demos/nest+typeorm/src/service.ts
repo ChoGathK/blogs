@@ -6,12 +6,12 @@ import { Demo } from './entity';
 export class DemoService {
 
   async find (): Promise<Demo> {
-    const result = await Demo.findById(1);
+    const result = await Demo.toFindById(1);
     return result;
   }
 
   async update (): Promise<void> {
-    await Demo.updateById(1, 'test');
+    await Demo.toChange({ id: 1 }, { detail: 'update' + Date.now() });
   }
 
 }

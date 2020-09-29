@@ -9,6 +9,7 @@ import { DemoController } from './controller';
 const options = {
   ...setting,
   entities: [ Demo ],
+  autoLoadEntities: true,
 };
 
 @Module({
