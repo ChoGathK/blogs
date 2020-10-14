@@ -51,6 +51,8 @@ npm config set registry https://registry.npm.taobao.org
 
 yarn config set registry https://registry.npm.taobao.org
 
+yum install git
+
 ```
 
 ### 配置环境变量
