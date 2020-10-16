@@ -51,6 +51,10 @@ npm config set registry https://registry.npm.taobao.org
 
 yarn config set registry https://registry.npm.taobao.org
 
+yarn global add typescript
+
+ln -s /usr/local/node/node-v12.16.0/bin/typescript /usr/local/bin/typescript
+
 yum install git
 
 ```
