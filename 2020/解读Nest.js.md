@@ -45,7 +45,8 @@ module.exports = {
     '@typescript-eslint/explicit-function-return-type': 'off',
     '@typescript-eslint/interface-name-prefix': 'off',
     '@typescript-eslint/no-explicit-any': 'off',
-    'semi-spacing': [2, {'before': false, 'after': true}], // 强制分号前后不允许空格
+    'comma-dangle': [2, 'always-multiline'], // 多行模式必须带逗号，单行模式不能带逗号
+    'semi-spacing': [2, {'before': false, 'after': true }], // 强制分号前后不允许空格
     'no-trailing-spaces': 'error', // 一行结束后面有空格就发出警告
     'no-irregular-whitespace': 0, // 不规则的空白不允许
     'no-use-before-define': 2, // 未定义前不能使用
@@ -69,6 +70,5 @@ module.exports = {
   },
 
 };
-
 
 ```
