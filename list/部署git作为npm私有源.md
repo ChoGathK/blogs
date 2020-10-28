@@ -1,4 +1,4 @@
-# 使用 Git 作为 NPM 私有源并支持 docker 构建
+# 部署 git 作为 npm 私有源.md
 
  > 使用 git ssh 或者 令牌校验，可以有效的保障依赖包的安全性
 
@@ -39,11 +39,6 @@ import * as cli from '@aliyun/cli';
 有些小伙伴可能是我这样的 docker 重度使用者，安装的时候 docker 是没有 SSH 权限的，那怎么办？
 
 首先你需要在 git 仓库中创建 token 令牌
-
-> 懒的查的就点一下吧
-
-* [👉  github 懒的查的就点一下吧](https://cn.bing.com/search?q=%E5%A6%82%E4%BD%95+%E5%88%9B%E5%BB%BA+github+token&amp;qs=n&amp;form=QBRE&amp;sp=-1&amp;pq=%E5%A6%82%E4%BD%95+%E5%88%9B%E5%BB%BA+github+token&amp;sc=0-18&amp;sk=&amp;cvid=90C3AA7D3E0B4E978EB06302CE41B51D)
-* [👉  gitlab 懒的查的就点一下吧](https://cn.bing.com/search?q=%E5%A6%82%E4%BD%95+%E5%88%9B%E5%BB%BA+gitlab+token&amp;qs=n&amp;form=QBRE&amp;sp=-1&amp;pq=%E5%A6%82%E4%BD%95+%E5%88%9B%E5%BB%BA+gitlab+token&amp;sc=0-18&amp;sk=&amp;cvid=2B785895669F4C1FBB4F0363D52A0A96)
 
 ### show time ⬇️
 

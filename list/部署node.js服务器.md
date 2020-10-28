@@ -10,11 +10,7 @@
 
 ### 云服务器上执行安装并设置软链，设置淘宝镜像源
 
-* node.js
-* npm
-* cnpm
-* yarn
-* pm2
+#### 安装 Node.js 并配置 npm 淘宝源
 
 ```shell
 cd /usr/local
@@ -34,6 +30,11 @@ mv node-v12.16.0-linux-x64 node-v12.16.0
 ln -s /usr/local/node/node-v12.16.0/bin/node /usr/local/bin/node
 
 ln -s /usr/local/node/node-v12.16.0/bin/npm /usr/local/bin/npm
+```
+
+#### 安装 cnpm yarn pm2 typescript git
+
+```shell
 
 npm install -g cnpm --registry=https://registry.npm.taobao.org
 
@@ -66,7 +67,10 @@ yum install git
 vi /etc/profile
 
 # 命令，按 i 进入编辑模式，进入文件末尾添加以下脚本
-export NODE_HOME=/usr/local/node/node-v11.12.0/bin
+export NODE_HOME=/usr/local/node/node-v12.16.0/bin
 export PATH=$NODE_HOME:$PATH
+
+# 加载
+source /etc/profile
 
 ```
