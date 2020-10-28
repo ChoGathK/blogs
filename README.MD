@@ -10,6 +10,8 @@
 
 * [奥斯本检核表法](https://github.com/ChoGathK/blogs/blob/master/history/奥斯本检核表法.md)
 
+* [反增熵思维](https://github.com/ChoGathK/blogs/blob/master/history/反增熵思维.md)
+
 ## 部署教程
 
 * [部署node.js服务器](https://github.com/ChoGathK/blogs/blob/master/history/部署node.js服务器.md)
