@@ -6,7 +6,7 @@
 
 * [node.js 后端学习路线](https://github.com/ChoGathK/blogs/blob/master/history/规划node.js学习路线.md)
 
-* [Nest.js](https://github.com/ChoGathK/blogs/blob/master/history/学习nest.js.md)
+* [Nest.js](https://github.com/ChoGathK/blogs/blob/master/2020/学习nest.js.md)
 
 ## 思维模式
 
