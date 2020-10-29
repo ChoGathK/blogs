@@ -134,8 +134,8 @@ nest new template
 
 ### 更新 .eslintrc.js
 
-[demo](https://github.com/ChoGathK/blogs/blob/master/demo/.eslintrc.js)
+[.eslintrc.js demo](https://github.com/ChoGathK/blogs/blob/master/demo/.eslintrc.md)
 
 ### 更新 tsconfig.json
 
-[demo](https://github.com/ChoGathK/blogs/blob/master/demo/tsconfig.json)
+[tsconfig.json demo](https://github.com/ChoGathK/blogs/blob/master/demo/tsconfig.md)

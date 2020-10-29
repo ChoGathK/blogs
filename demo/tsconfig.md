@@ -1,0 +1,22 @@
+# demo
+
+```js
+
+{
+  "exclude": ["./dist", "./node_modules", "**/*spec.ts"],
+  "include": ["./src"],
+  "compilerOptions": {
+    "module": "CommonJS",
+    "target": "es2017",
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "removeComments": false,
+    "declaration": true,
+    "incremental": true,
+    "sourceMap": true,
+  }
+}
+
+```
