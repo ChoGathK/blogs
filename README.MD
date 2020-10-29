@@ -2,6 +2,13 @@
 
 > 欢迎 Issues 或 Email (`chogath@163.com`) 留言
 
+## 优秀者的共性
+
+* => 在开始前充分的思考、推导、证明
+* => 借鉴成功者的设计模式、思维模式
+* => 规划一个完整的体系
+* => 可流程自动化、可复制、可拓展、可配置、可测试、有冗余和安全策略
+
 ## 学习记录
 
 * [node.js 后端学习路线](https://github.com/ChoGathK/blogs/blob/master/src/history/规划node.js学习路线.md)
