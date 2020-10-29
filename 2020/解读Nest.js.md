@@ -815,13 +815,12 @@ module.exports = {
     // @off 没必要限制
     'wrap-regex': 'off',
 
+    /**
+     * ECMAScript 6
+     *
+     * 这些规则与 ES6（即通常所说的 ES2015）有关
+     */
 
-
-    //
-    //
-    // ECMAScript 6
-    // 这些规则与 ES6（即通常所说的 ES2015）有关
-    //
     // @fixable 箭头函数能够省略 return 的时候，必须省略，比如必须写成 () => 0，禁止写成 () => { return 0 }
     // @off 箭头函数的返回值，应该允许灵活设置
     'arrow-body-style': 'off',
