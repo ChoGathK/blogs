@@ -7,6 +7,7 @@
 ```shell
 
 yarn global add @nestjs/cli
+yarn global add @nestjs/schematics
 
 ```
 
