@@ -1,6 +1,6 @@
 # NestJs设计核心思想
 
-> 转载请注明出处，原文 github 地址 [NestJs设计核心思想](https://github.com/ChoGathK/blogs/blob/master/src/history/NestJs设计思想.md)
+> 转载请注明出处，github 地址 [NestJs设计核心思想](https://github.com/ChoGathK/blogs/blob/master/src/history/NestJs设计思想.md)
 
 ## IoC (控制反转) & DI (依赖注入)
 
