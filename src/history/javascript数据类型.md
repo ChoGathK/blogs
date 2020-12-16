@@ -1,10 +1,10 @@
-# 基础数据类型
+# javascript数据类型
 
 > 转载请注明出处，github 地址 [javascript数据类型](https://github.com/ChoGathK/blogs/blob/master/src/history/javascript数据类型.md)
 
-## js中的数据类型
+## 介绍
 
-`JavaScript` 中共有七种内置数据类型，包括**基本类型**和**对象类型**。
+> `javaScript` 中共有七种内置数据类型，包括**基本类型**和**对象类型**。
 
 ### 基本类型
 
@@ -17,23 +17,19 @@
 - null（空值）
 - undefined（未定义）
 
-**注意**：
-
-1. `string` 、`number` 、`boolean` 和 `null`  `undefined` 这五种类型统称为**原始类型**（Primitive），表示不能再细分下去的基本类型;
+1. `string` 、`number` 、`boolean` 和 `null`  `undefined` 为**原始类型**，表示不能再细分下去的基本类型;
 2. `symbol`是ES6中新增的数据类型，`symbol` 表示独一无二的值，通过 `Symbol` 函数调用生成，由于生成的 symbol 值为原始类型，所以 `Symbol` 函数不能使用 `new` 调用；
 3. `null` 和 `undefined` 通常被认为是特殊值，这两种类型的值唯一，就是其本身。
 
-### 对象类型
+### 对象类型(引用类型)
 
-对象类型也叫引用类型，`array`和`function`是对象的子类型。对象在逻辑上是属性的无序集合，是存放各种值的容器。对象值存储的是引用地址，所以和基本类型值不可变的特性不同，对象值是可变的。
+对象类型也叫引用类型，`array`和`function`是对象的子类型。对象在逻辑上是属性的无序集合，是存放各种值的容器。
 
-## 弱类型语言
+## 类型转换
 
-`JavaScript` 是弱类型语言，而且`JavaScript` 声明变量的时候并没有预先确定的类型，变量的类型就是其值的类型，也就是说**变量当前的类型由其值所决定**,夸张点说上一秒种的`String`，下一秒可能就是个`Number`类型了，这个过程可能就进行了某些操作发生了强制类型转换。虽然弱类型的这种**不需要预先确定类型**的特性给我们带来了便利，同时也会给我们带来困扰，为了能充分利用该特性就必须掌握类型转换的原理。
+`JavaScript` 是弱类型语言，而且`JavaScript` 声明变量的时候并没有预先确定的类型，变量的类型就是其值的类型，也就是说**变量当前的类型由其值所决定**，夸张点说上一秒种的`String`，下一秒可能就是个`Number`类型了，这个过程可能就进行了某些操作发生了强制类型转换。虽然弱类型的这种**不需要预先确定类型**的特性给我们带来了便利，同时也会给我们带来困扰，为了能充分利用该特性就必须掌握类型转换的原理。
 
-### js中的强制转换规则
-
-#### `ToPrimitive`(转换为原始值)
+### `ToPrimitive`(转换为原始值)
 
 `ToPrimitive`对原始类型不发生转换处理，只**针对引用类型（object）的**，其目的是将引用类型（object）转换为非对象类型，也就是原始类型。
 
@@ -44,13 +40,15 @@
 
 ```javascript
 /**
-* @obj 需要转换的对象
-* @type 期望转换为的原始数据类型，可选
-*/
+ * @obj 需要转换的对象
+ * @type 期望转换为的原始数据类型，可选
+ */
+
 ToPrimitive(obj,type)
 ```
 
-##### type不同值的说明
+#### type不同值的说明
+
 - type为`string`:
 
 1. 先调用`obj`的`toString`方法，如果为原始值，则`return`，否则进行第2步
@@ -63,20 +61,21 @@ ToPrimitive(obj,type)
 2. 调用`obj`的`toString`方法，如果为原始值，则`return`，否则第3步
 3. 抛出`TypeError` 异常
 
-
 - type参数为空
+
 1. 该对象为`Date`，则type被设置为`String`
 2. 否则，type被设置为`Number`
 
-##### Date数据类型特殊说明：
+#### Date数据类型特殊说明
 
 对于`Date`数据类型，我们更多期望获得的是其转为时间后的字符串，而非毫秒值（时间戳），如果为`number`，则会取到对应的毫秒值，显然字符串使用更多。
 其他类型对象按照取值的类型操作即可。
 
-##### `ToPrimitive`总结
+#### `ToPrimitive`总结
+
 `ToPrimitive`转成何种原始类型，取决于type，type参数可选，若指定，则按照指定类型转换，若不指定，默认根据实用情况分两种情况，`Date`为`string`，其余对象为`number`。那么什么时候会指定type类型呢，那就要看下面两种转换方式了。
 
-#### toString
+### toString
 
 **Object.prototype.toString()**
 
@@ -86,7 +85,7 @@ ToPrimitive(obj,type)
 
 这里先记住，`valueOf()` 和 `toString() `在特定的场合下会自行调用。
 
-#### valueOf
+### valueOf
 
 `Object.prototype.valueOf()`方法返回指定对象的原始值。
 
@@ -187,7 +186,7 @@ Boolean([]) // true
 Boolean(new Boolean(false)) // true
 ```
 
-## 转换规则不同场景应用
+## 类型转换的不同场景应用
 
 ### 什么时候自动转换为string类型
 
@@ -369,7 +368,7 @@ expression ? true : false
 !! expression
 ```
 
-## 数据类型判断
+## 类型判断
 
 > 面试官问：如何判断数据类型？怎么判断一个值到底是数组类型还是对象?
 
