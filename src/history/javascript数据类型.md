@@ -1,6 +1,6 @@
 # 基础数据类型
 
-> 转载请注明出处，github 地址 [NestJs设计核心思想](https://github.com/ChoGathK/blogs/blob/master/src/history/javascript数据类型.md)
+> 转载请注明出处，github 地址 [javascript数据类型](https://github.com/ChoGathK/blogs/blob/master/src/history/javascript数据类型.md)
 
 ## js中的数据类型
 
