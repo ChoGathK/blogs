@@ -1,23 +1,27 @@
 # demo
 
-```jsON
+```json
 
 {
-  // YOUR BASE SRC PATH, DEFAULT `"./src"`
-  "include": ["./src"],
+  "include": [
+    "./src"
+  ],
+  "exclude": [
+    "**/*.spec.ts",
+    "**/*.spec.js",
+    "node_modules"
+  ],
   "compilerOptions": {
     "module": "CommonJS",
-    "target": "ES2018",
-    "lib": ["ES2018"],
-    // YOUR BASE BUILD PATH, DEFAULT `"./dist"`
+    "target": "ESNext",
+    "lib": ["ESNext"],
     "outDir": "./dist",
-    // YOUR BASE PATH, DEFAULT `"./"`
     "baseUrl": "./",
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
     "removeComments": false,
+    "incremental": false,
     "declaration": true,
-    "incremental": true,
     "sourceMap": false,
   }
 }
