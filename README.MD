@@ -6,6 +6,7 @@
 
 * `Node.js`
   * [javascript - 数据类型](https://share.mubu.com/doc/7cFH4nPtH8M)
+  * [javascript - 作用域](https://share.mubu.com/doc/1gt8Q1FXmpM)
 
 * `Nest.js`
   * [设计思想](https://github.com/ChoGathK/blogs/blob/master/src/history/NestJs设计思想.md)
