@@ -1,4 +1,4 @@
-# Easy-Monitor 3.0 （阿里云） Docker + K8s 部署指南
+# 部署 ezm 3.0
 
 ## 引言
 

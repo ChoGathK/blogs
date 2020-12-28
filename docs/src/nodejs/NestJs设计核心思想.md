@@ -1,7 +1,5 @@
 # NestJs设计核心思想
 
-> 转载请注明出处，github 地址 [NestJs设计核心思想](https://github.com/ChoGathK/blogs/blob/master/src/history/NestJs设计思想.md)
-
 ## IoC (控制反转) & DI (依赖注入)
 
 > 将应用程序赋予一个中心 ———— `Ioc 容器` ，并将被依赖对象的实例化过程提取到 `Ioc 容器`中，由 `Ioc 容器` 管理依赖关系和被依赖对象的注入
