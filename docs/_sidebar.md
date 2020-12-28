@@ -1,3 +1,5 @@
+<!-- _sidebar.md -->
+
 - JavaScript 基础
   - [数据类型](src/javascript/数据类型.md)
   - [作用域](src/javascript/作用域.md)

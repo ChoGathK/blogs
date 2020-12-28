@@ -10,4 +10,4 @@
 - 了解如何设计一个健壮的服务端架构
 
 [Github](https://github.com/ChoGathK/blogs)
-[Get Started](src/home.md)
+[Get Started](_home.md)

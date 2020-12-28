@@ -6,14 +6,16 @@
     <title>Chogath's Blogs</title>
     <meta name="description" content="Description">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
     <link rel="icon" href="assets/image/logo.png" type="image/x-icon">
     <link rel="shortcut icon" href="assets/image/logo.png" type="image/x-icon">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css">    
   </head>
   <body>
     <div id="app">
-      loading
+      <div align="center">
+        <img src="assets/image/loading.gif">
+      </div>
     </div>
     <script>
       window.$docsify = {
@@ -26,6 +28,9 @@
         loadSidebar: true,
         name: 'Chogath\'s Blogs',
         repo: 'https://github.com/ChoGathK/blogs',
+        alias: {
+          '/.*/_sidebar.md': './_sidebar.md'
+        },
 
         // Search
         // ---------------------------------------------------
@@ -43,17 +48,17 @@
         count:{
           countable:true,
           fontsize:'0.9em',
-          language:'chinese',
           color:'rgb(90,90,90)',
+          language:'chinese'
         }
       }
     </script>
-    <!-- Docsify v4 -->
-    <script src="https://cdn.jsdelivr.net/npm/docsify@4"></script>
-    <script src="https://cdn.jsdelivr.net/npm/docsify-copy-code"></script>
-    <script src="https://cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.22.0/components/prism-typescript.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/docsify-copy-code"></script>
+    <script src="//unpkg.com/docsify-count/dist/countable.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/prismjs@1.22.0/components/prism-typescript.min.js"></script>
   </body>
 </html>
