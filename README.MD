@@ -1,4 +1,4 @@
-# Chogath's Blogs
+# Blogs
 
 > 在这里，你可以：
 
