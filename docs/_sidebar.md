@@ -10,4 +10,4 @@
   - [nestjs设计思想](src/nodejs/NestJs设计核心思想)
 
 - Devops
-  - [部署 ezm 3.0](src/build/部署ezm.md)
+  - [使用docker部署ezm3.0](src/build/部署ezm.md)
