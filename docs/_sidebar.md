@@ -3,6 +3,7 @@
 - JavaScript 基础
   - [数据类型](src/javascript/数据类型.md)
   - [作用域](src/javascript/作用域.md)
+  - [闭包](src/javascript/闭包.md)
   
 - Node.js 服务端
   - [nestjs设计思想](src/nodejs/NestJs设计核心思想)
