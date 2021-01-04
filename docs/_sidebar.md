@@ -6,7 +6,7 @@
   - [闭包函数](src/javascript/闭包函数.md)
   - [高阶函数](src/javascript/高阶函数.md)
   - [赋值和内存分配](src/javascript/赋值和内存分配.md)
-  - [原型与原型链 🚧](src/javascript/原型与原型链.md)
+  - [原型与原型链](src/javascript/原型与原型链.md)
   - [类与继承 🚧](src/javascript/类与继承.md)
   - [this指针 🚧](src/javascript/this指针.md)
   - [异步 🚧](src/javascript/异步.md)
