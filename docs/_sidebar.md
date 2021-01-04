@@ -29,11 +29,11 @@
   - [koa 🚧](src/nodejs/koa.md)
   - [eggjs 🚧](src/nodejs/eggjs.md)
 
-- Nest.js 与微服务
+- Nest.js
   - [nestjs设计思想 🚧](src/nestjs/nestjs设计思想.md)
   - [nestjs单体服务 🚧](src/nestjs/nestjs单体服务.md)
   - [nestjs网关服务 🚧](src/nestjs/nestjs网关服务.md)
-  - [nestjs微服务架构 🚧](src/nestjs/nestjs微服务架构.md)
+  - [nestjs分布式架构 🚧](src/nestjs/nestjs分布式架构.md)
 
 - Devops
   - [敏捷开发与CI/CD 🚧](src/devops/敏捷开发.md)
