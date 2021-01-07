@@ -4,7 +4,7 @@
   - [介绍](src/javascript/介绍.md)
   - [基础](src/javascript/基础.md)
   - [函数和作用域](src/javascript/函数和作用域.md)
-  <!-- - [面向对象](src/javascript/面向对象.md) -->
+  - [面向对象](src/javascript/面向对象.md)
 
 <!-- - TypeScript 基础
   - [介绍 🚧](src/typescript/介绍.md)
