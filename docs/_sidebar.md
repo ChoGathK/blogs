@@ -8,9 +8,9 @@
 
 - TypeScript 基础
   - [介绍](src/typescript/介绍.md)
-  - [interface](src/typescript/interface.md)
-  - [class](src/typescript/class.md)
-  - [泛型](src/typescript/泛型.md)
+  - [类型系统](src/typescript/类型系统.md)
+  - [命名空间与模块](src/typescript/命名空间与模块.md)
+  - [类与面向对象](src/typescript/类与面向对象.md)
 
 <!-- 
 - Node.js 基础
