@@ -6,7 +6,7 @@
   - [函数和作用域](src/javascript/函数和作用域.md)
   - [原型与面向对象](src/javascript/原型与面向对象.md)
 
-- TypeScript 基础
+- TypeScript 基础篇
   - [介绍](src/typescript/介绍.md)
   - [类型系统](src/typescript/类型系统.md)
   - [命名空间与模块](src/typescript/命名空间与模块.md)
