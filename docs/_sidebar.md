@@ -9,8 +9,14 @@
 - TypeScript 基础篇
   - [介绍](src/typescript/介绍.md)
   - [类型系统](src/typescript/类型系统.md)
-  - [命名空间与模块](src/typescript/命名空间与模块.md)
+  - [接口](src/typescript/接口.md)
+  - [泛型](src/typescript/泛型.md)
+  - [函数](src/typescript/函数.md)
   - [类与面向对象](src/typescript/类与面向对象.md)
+  - [模块](src/typescript/模块.md)
+  - [模块解析](src/typescript/模块解析.md)
+  - [命名空间](src/typescript/命名空间.md)
+  - [装饰器](src/typescript/装饰器.md)
 
 <!-- 
 - Node.js 基础
