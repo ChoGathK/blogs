@@ -1,13 +1,13 @@
 # Chogath's Blogs
 
-> 在这里，您可以了解到：
+> Here, you can see:
 
-- 咱的阅读心得
-- 有关 Node.js 的全部
-- 设计分布式、高并发服务端架构
-- 建设现代化的 devops 流程体系
+- My reading experience
+- All about Node.js
+- Design a distributed, high concurrency server architecture
+- Build a modern DevOps process system
 
 ## Links
 
-- [Chogath's Blogs](https://chogathk.gitee.io/blogs)
-- [Chogath's Blogs (备用地址)](https://chogathk.github.io/blogs)
+- [Chogath's Blogs(gitee.io)](https://chogathk.gitee.io/blogs)
+- [Chogath's Blogs(github.io)](https://chogathk.github.io/blogs)
