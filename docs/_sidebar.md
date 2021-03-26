@@ -18,48 +18,22 @@
   - [命名空间](src/typescript/命名空间.md)
   - [装饰器](src/typescript/装饰器.md)
 
-<!-- 
-- Node.js 基础
-  - [介绍 🚧](src/nodejs/介绍.md)
-  - [异步 🚧](src/nodejs/异步.md)
-  - [模块系统 🚧](src/nodejs/模块系统.md)
-  - [进程和线程 🚧](src/nodejs/进程和线程.md)
-  
-- Node.js 进阶
-  - [消息队列 🚧](src/nodejs/消息队列.md)
-  - [内存与性能优化 🚧](src/nodejs/内存与性能优化.md)
-  - [npm与组件化思维 🚧](src/nodejs/npm与组件化思维.md)
-  - [单元测试 🚧](src/nodejs/单元测试.md)
-  - [express 🚧](src/nodejs/express.md)
-  - [koa 🚧](src/nodejs/koa.md)
-  - [eggjs 🚧](src/nodejs/eggjs.md)
+- Node.js 基础篇
+  - [介绍](src/nodejs/介绍.md)
+  - [异步和IO调用](src/nodejs/异步和IO调用.md)
+  - [事件循环](src/nodejs/事件循环.md)
+  - [事件](src/nodejs/事件.md)
+  - [buffer](src/nodejs/buffer.md)
+  - [stream](src/nodejs/stream.md)
+  - [消息队列](src/nodejs/消息队列.md)
+  - [内存溢出](src/nodejs/内存溢出.md)
+  - [进程与线程](src/nodejs/进程与线程.md)
+  - [部署ezm](src/build/部署ezm.md)
+  - [部署git作为npm私有源](src/build/部署git作为npm私有源.md)
+  - [部署Redis镜像](src/build/部署Redis镜像.md)
 
-- Nest.js
-  - [nestjs设计思想 🚧](src/nestjs/nestjs设计思想.md)
-  - [nestjs单体服务 🚧](src/nestjs/nestjs单体服务.md)
-  - [nestjs网关服务 🚧](src/nestjs/nestjs网关服务.md)
-  - [nestjs分布式架构 🚧](src/nestjs/nestjs分布式架构.md)
-
-- Devops
-  - [敏捷开发与CI/CD 🚧](src/devops/敏捷开发.md)
-  - [如何落地devops 🚧](src/devops/如何落地devops.md)
-  
-- 运维与安全
-  - [部署redis镜像 🚧](src/build/部署redis镜像.md)
-  - [部署node.js服务器 🚧](src/build/部署node.js服务器.md)
-  - [使用docker部署ezm3.0 🚧](src/build/部署ezm.md)
-
-- Database
-  - [mysql 🚧](src/database/mysql.md)
-  - [postgresql 🚧](src/database/postgresql.md)
-  - [mongodb 🚧](src/database/mongodb.md)
-
-- 消息和中间件
-  - [redis 🚧](src/middleware/redis.md)
-  - [kafka 🚧](src/middleware/kafka.md)
-  - [rabbitmq 🚧](src/middleware/rabbitmq.md)
-  - [rocketmq 🚧](src/middleware/rocketmq.md)
-
-- 算法与数据结构
-
-- 阅读心得 -->
+- 阅读心得
+  - [思维模式](src/book/思维模式.md)
+  - [学习设计模式](src/book/学习设计模式.md)
+  - [反增熵思维](src/book/反增熵思维.md)
+  - [奥斯本检核表法](src/book/奥斯本检核表法.md)

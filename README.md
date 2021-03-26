@@ -4,8 +4,6 @@
 
 - My reading experience
 - All about Node.js
-- Design a distributed, high concurrency server architecture
-- Build a modern DevOps process system
 
 ## Links
 

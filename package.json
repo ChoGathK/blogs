@@ -1,0 +1,27 @@
+{
+  "name": "blogs",
+  "version": "1.0.0",
+  "description": "> Here, you can see:",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {
+    "docsify": "^4.12.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "docsify serve docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChoGathK/blogs.git"
+  },
+  "author": "chogath",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChoGathK/blogs/issues"
+  },
+  "homepage": "https://github.com/ChoGathK/blogs#readme"
+}
